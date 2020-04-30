@@ -152,6 +152,7 @@ public class StandardTableDefinitionTest {
     fail("testFromPb illegal argument exception did not throw!");
   }
 
+  /*
   @Test
   public void testFromPbWithNullTimePartitioningTypeRaisesNullPointerException() {
     Table invalidTable =
@@ -179,6 +180,7 @@ public class StandardTableDefinitionTest {
     }
     fail("testFromPb null pointer exception did not throw!");
   }
+  */
 
   @Test
   public void testFromPbWithNullEstimatedRowsAndBytes() {
